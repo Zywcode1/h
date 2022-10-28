@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link src="./config/loginjs.js">
+    <script>
+var p = document.getElementById("p")
+var u = document.getElementById("u")
+var list = {"zyw":20130812,"guest": 1234}
+function script(){
+    if (u in Object.keys(list)){
+        if (p in Object.values(list)){
+            location.replace("")
+        }else{
+            alert("密码不正确！")
+        }
+    }else{
+        alert("用户名未注册！")
+    }
+}
+    </script>
     <style>
         * {
             padding: 0;
