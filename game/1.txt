@@ -1,6 +1,0 @@
-name:game
-max-file:800
-file:800
-一共文件：
-game:800
-PASS:1
